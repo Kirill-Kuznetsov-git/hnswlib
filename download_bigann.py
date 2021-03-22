@@ -4,6 +4,7 @@ import os
 links = ['ftp://ftp.irisa.fr/local/texmex/corpus/bigann_query.bvecs.gz',
          'ftp://ftp.irisa.fr/local/texmex/corpus/bigann_gnd.tar.gz',
          'ftp://ftp.irisa.fr/local/texmex/corpus/bigann_base.bvecs.gz']
+print(123)
 
 os.makedirs('downloads', exist_ok=True)
 os.makedirs('bigann', exist_ok=True)
